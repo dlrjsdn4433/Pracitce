@@ -10,7 +10,7 @@ public class test8 {
         Scanner sc = new Scanner(System.in);
         System.out.println("1부터 10 사이의 숫자를 골라주세요.");
         int selectNum =  sc.nextInt();
-        int randomNum = (int)(Math.random()*9)+1;
+        int randomNum = (int)(Math.random()*10)+1;
 
         if(randomNum != selectNum){
             System.out.println("실패입니다.");
